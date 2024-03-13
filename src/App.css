@@ -1,0 +1,40 @@
+.todo-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: rgb(27, 188, 18);
+  }
+  
+  .add-todo {
+    margin-bottom: 20px;
+    color: rgb(39, 194, 194);
+  }
+  
+  .add-todo input,
+  .add-todo select,
+  .add-todo button {
+    margin-right: 10px;
+  }
+  
+  .todo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: rgb(168, 245, 245);
+  }
+  
+  .todo-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .todo-actions button {
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 187, 57);
+    
+  }
+
+
+  
